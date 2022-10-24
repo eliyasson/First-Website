@@ -76,31 +76,54 @@ ul li a:hover{
     color: #fff;
     position: relative;
 }
-.content h1{
-    font-family: 'Times New Roman';
-    font-size: 50px;
-    padding-left: 20px;
-    margin-top: 9%;
-    letter-spacing: 2px;
+
+#container1{
+    height: 200px;
+    width: 300px;
+    margin-top: -10px;
+    margin-left: 40%;
+    
+    position: absolute;
+    border: 1px solid #9fa0a1;
+    border-radius: 15px;
+    
 }
-.content .par{
-    padding-left: 20px;
-    padding-bottom: 25px;
-    font-family: Arial;
-    letter-spacing: 1.2px;
-    line-height: 30px;
+#container1 h1 {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 80px;
+    position: absolute;
+    color: #fff;
+ 
+    left: 35%;
 }
-.content .cn{
-    width: 160px;
-    height: 40px;
-    background: #ff7200;
-    border: none;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    font-size: 18px;
-    border-radius: 10px;
+#buttons{
+    height: 50px;
+    width: 260px;
+    position: absolute;
+    bottom:10%;
+    left: 20px;
+}
+#buttons button{
+    height: 50px;
+    width: 120px;
     cursor: pointer;
+
 }
+#increment {
+    position: absolute;
+    right: 0;
+    background: rgb(0, 86, 110);
+    color: #e2ebf4;
+    font-size: x-large;
+}
+#decrement{
+    position: absolute;
+    font-size: xx-large;
+    background: yellow;   
+}
+
 .content .cn a{
     text-decoration: none;
     color: #000;
@@ -263,7 +286,7 @@ ul li a:hover{
     border-bottom-right-radius: 5px;
 }
 
-.containers{
+/* .containers{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -352,12 +375,57 @@ ul li a:hover{
 
     }
 }
-
+ */
 #main-footer{
     color: #fff;
     position: absolute;
     bottom: -10px;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.player{
+    
+    position: relative;
+    
+    border-radius: 15px;
+    color: #fff;
+    
+}
+
+
+.player input{
+    width: 300px;
+    height: 35px;
+    margin-top: 5%;
+
+    position: relative;
+    
+    
+}
+.player button {
+    width: 100px;
+    height: 35px;
+    background: white;
+    color: green;
+    outline: none;
+    cursor: pointer;
+    border-color: green;
+    
+   
+}
+.container2{
+    margin-top: 50px;
+}
+.container2 ul{
+    list-style: none;
+    width: 400px;
+}
+.container2 ul li{
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer; 
+    font-size: x-large;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
