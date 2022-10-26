@@ -19,7 +19,7 @@
     
 }
 .navbar{
-    width: 1800px;
+    width: 1200px;
     height: 75px;
     margin: auto;
 }
@@ -69,72 +69,14 @@ ul li a:hover{
     padding-top: 10px;
 }
 
+
+
 .content{
-    padding-left: 30px;
+    width: 1200px;
     margin-top: 13%;
     height: auto;
     color: #fff;
     position: relative;
-}
-
-#container1{
-    height: 200px;
-    width: 300px;
-    margin-top: -10px;
-    margin-left: 40%;
-    
-    position: absolute;
-    border: 1px solid #9fa0a1;
-    border-radius: 15px;
-    
-}
-#container1 h1 {
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    font-size: 80px;
-    position: absolute;
-    color: #fff;
- 
-    left: 35%;
-}
-#buttons{
-    height: 50px;
-    width: 260px;
-    position: absolute;
-    bottom:10%;
-    left: 20px;
-}
-#buttons button{
-    height: 50px;
-    width: 120px;
-    cursor: pointer;
-
-}
-#increment {
-    position: absolute;
-    right: 0;
-    background: rgb(0, 86, 110);
-    color: #e2ebf4;
-    font-size: x-large;
-}
-#decrement{
-    position: absolute;
-    font-size: xx-large;
-    background: yellow;   
-}
-
-.content .cn a{
-    text-decoration: none;
-    color: #000;
-    transition: .3s ease;
-}
-.cn:hover{
-    background-color: #fff;
-}
-.content span{
-    color: #ff7200;
-    font-size: 60px;
 }
 
 .form{
@@ -266,7 +208,7 @@ ul li a:hover{
     border: 1px solid #ff7200;
     margin-top: 13px;
     color: #fff;
-    border-right: none;
+    
     font-size: 16px;
     float: left;
     padding: 10px;
@@ -282,8 +224,13 @@ ul li a:hover{
     margin-top: 13px;
     color: #fff;
     font-size: 15px;
+    border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: rgb(0, 247, 144);
 }
 
 /* .containers{
@@ -382,6 +329,53 @@ ul li a:hover{
     bottom: -10px;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#container1{
+    height: 200px;
+    width: 300px;
+    margin-top: -10px;
+    margin-left: 40%;
+    
+    position: absolute;
+    border: 1px solid #9fa0a1;
+    border-radius: 15px;
+    
+}
+#container1 h1 {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 80px;
+    position: absolute;
+    color: #fff;
+ 
+    left: 35%;
+}
+#buttons{
+    height: 50px;
+    width: 260px;
+    position: absolute;
+    bottom:10%;
+    left: 20px;
+}
+#buttons button{
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+
+}
+#increment {
+    position: absolute;
+    right: 0;
+    background: rgb(0, 86, 110);
+    color: #e2ebf4;
+    font-size: x-large;
+}
+#decrement{
+    position: absolute;
+    font-size: xx-large;
+    background: yellow;   
 }
 
 .player{
