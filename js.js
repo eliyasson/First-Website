@@ -9,7 +9,9 @@ increment.addEventListener("click", ()=> {
     counterValue.innerText= counter;
 });
 decrement.addEventListener("click", ()=> {
-    counter--;
+    if(counter > 0) {
+        counter--;
+    }
     counterValue.innerText= counter;
 });
 
